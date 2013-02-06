@@ -27,7 +27,7 @@ ECHO.
 ECHO Device password:  ****
 ECHO.
 ECHO ...
-"c:\program files\Research In Motion\BlackBerry 10 WebWorks SDK 1.0.4.7\dependencies\tools\bin\blackberry-deploy" -installApp -launchApp -device %deviceip% -password %devicepwd% -package %tmpfolder%\device\WIC.bar
+"c:\program files (x86)\Research In Motion\BlackBerry 10 WebWorks SDK 1.0.4.7\dependencies\tools\bin\blackberry-deploy" -installApp -launchApp -device %deviceip% -password %devicepwd% -package %tmpfolder%\device\WIC.bar
 
 ECHO.
 GOTO DEPLOYDONE
