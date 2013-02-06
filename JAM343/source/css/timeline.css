@@ -15,7 +15,8 @@
 */
 
 .row {
-	padding-bottom: 0.25em;
+	margin-bottom: 0.25em;
+	border-bottom: dotted 1px black;
 }
 #scrollcontainer {
 	height: 850px;

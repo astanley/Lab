@@ -31,8 +31,14 @@
 	<feature id="blackberry.invoke"/>
 	<feature id="blackberry.ui.toast" />
 
-	<access subdomains="true" uri="https://developer.blackberry.com"/>
-	<access subdomains="true" uri="http://developer.blackberry.com"/>
+	<access uri="https://developer.blackberry.com" subdomains="true"/>
+	<access uri="http://developer.blackberry.com" subdomains="true"/>
+	<access uri="https://css-tricks.com" subdomains="true" />
+	<access uri="http://css-tricks.com" subdomains="true" />
+	<access uri="https://devblog.blackberry.com" subdomains="true" />
+	<access uri="http://devblog.blackberry.com" subdomains="true" />
+	<access uri="https://code.jquery.com" subdomains="true" />
+	<access uri="http://code.jquery.com" subdomains="true" />
 
 	<rim:permissions>
 		<rim:permit>read_geolocation</rim:permit>
